@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a0033, #330066, #4d0099);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 0 15px #bb00ff, 0 0 30px #6600cc;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #bb00ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#timeToCrack {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+#strengthBar {
+  height: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: red;
+  width: 0%;
+  transition: 0.3s;
+}
